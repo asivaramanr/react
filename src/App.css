@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  font-style: everett;
+  background-color: white;
+  }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(30px + 3vmin);
+  font-style: everett;
+  color: #94552a;
+}
+
+.App-link {
+  color: #61dafb;
+  font-size: calc(10px + 2vmin);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-footer {
+  font-style: everett;
+  position: absolute;
+  font-size: calc(1px + 1vmin);
+  bottom: 0;
+  padding: 10px;
+}
+
+.SubmitButton {
+  position: 'down';
+  bottom: 0;
+  padding: 10px;
+}
